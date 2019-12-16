@@ -15,3 +15,6 @@ hdmi_mode=87
 # Custom display mode definition
 # <width> <height> <framerate> <aspect> <margins> <interlace> <rb>
 hdmi_cvt=1024 600 60 6 0 0 0
+
+# Disable screen blanking (if you're using RetroPie)
+# consoleblank=0
