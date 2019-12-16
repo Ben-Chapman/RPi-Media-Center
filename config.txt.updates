@@ -1,0 +1,17 @@
+#####
+# Updates to support 7" LCD Touch Screen
+# https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+#####
+
+# Force HDMI Output to DMT (Display Monitor Timings)
+hdmi_group=2
+
+# Force DVI Mode (No sound over HDMI)
+hdmi_drive=1
+
+# HDMI Output Format. 87 == a custom display mode
+hdmi_mode=87
+
+# Custom display mode definition
+# <width> <height> <framerate> <aspect> <margins> <interlace> <rb>
+hdmi_cvt=1024 600 60 6 0 0 0
