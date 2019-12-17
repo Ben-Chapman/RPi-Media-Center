@@ -12,14 +12,9 @@ try:
         temp = weather.temperature()
         press = weather.pressure()
         print(
-            "Lux: {}
-            RGB: {}
-            Accelerometer: {}
-            Heading: {}
-            Temp C: {}
-            Pressure hPa: {}".format(
+            "Lux: {} | RGB: {} | Accelerometer: {} | Heading: {} | Temp C: {} | Pressure hPa: {}".format(
                 str(lux),
-                rgb
+                rgb,
                 accel,
                 str(heading),
                 temp,
